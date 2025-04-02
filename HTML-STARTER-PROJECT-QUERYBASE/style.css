@@ -1,0 +1,276 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida San';
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex
+;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* HEADER */
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(90deg, #06165f 0%, #3c00bc 100%);
+    color: #fff;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin: auto;
+   padding: 0 20px;
+   max-width: 1000px;
+}
+    @media screen and (min-width: 375px){
+        .header__inner {
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+    }
+
+
+.header__logo {
+    color:white;
+    font-size: 1.5em;
+    font-family:Arial;
+    margin-top: 0;
+    /* margin-left: 20px; */
+}
+
+
+    @media screen and (min-width: 375px){
+        .header__logo {
+            margin-top: 20px;
+            padding: 0px 20px;
+            /* padding-left: -20px; */
+        }
+    }
+.header__actions {
+    display: flex;
+    gap: 10px;}
+
+
+.header__button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(255, 115, 0);
+    font-size: 16px;
+   
+   
+}
+
+ 
+.header__button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+
+.header__button--submit{
+    background: rgb(247, 178, 29);
+    color:black;
+    font-style: Arial;
+   
+
+
+}
+.header__button--signin {
+    background:#eb2b35;
+    color:white;
+    font-size: arial;
+
+
+}
+
+
+/* GENERAL */
+.maincontainer {
+   
+    margin: auto;
+}
+
+
+.main-content {
+    text-align: center;
+    flex: 1;
+}
+/* SEARCH */
+
+
+.search{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    background-color: #E8EAF6;
+}
+.search_input {
+    display: flex;
+    padding: 8px 30px 8px 8px;
+    border-radius: 20px;
+    /* min-width: 250px; */
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.search_searchicon {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+
+
+    .search__wrapper {
+position: relative;
+max-width: 350px;
+width: 100%;
+    }
+.search__title {
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+
+
+/* FAQ */
+
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    max-width: 1200px;
+}
+
+
+.faq__list{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.faq__list-item {
+    min-height: 8rem;
+    border-radius: 5px;
+    gap: 2rem;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid rgb(199, 191, 191);
+}
+
+
+/* FOOTER */
+.footer {
+    padding: 20px;
+    background: linear-gradient(90deg, #022c34 0%, #3509d3 100%);
+   
+}
+.footer__content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-around;
+        width: 100%;
+        color: white;
+       
+    }
+.footer__column {
+    margin: 10px;
+    max-width: 150px;
+    width: 100%;
+}
+
+
+
+
+    .search__wrapper {
+position: relative;
+max-width: 350px;
+width: 100%;
+    }
+.search__title {
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+
+
+/* FAQ */
+
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    max-width: 1200px;
+}
+
+
+.faq__list{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.faq__list-item {
+    min-height: 8rem;
+    border-radius: 5px;
+    gap: 2rem;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid rgb(199, 191, 191);
+}
+
+
+/* FOOTER */
+.footer {
+    padding: 20px;
+    background: linear-gradient(90deg, #022c34 0%, #3509d3 100%);
+   
+}
+.footer__content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-around;
+        width: 100%;
+        color: white;
+       margin: auto;
+    }
+.footer__column {
+    margin: 10px;
+    max-width: 150px;
+    width: 100%;
+} 
